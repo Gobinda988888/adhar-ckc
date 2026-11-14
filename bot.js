@@ -21,7 +21,7 @@ process.on('exit', () => { try { fs.unlinkSync(PID_FILE); } catch (e) { } });
 process.on('SIGINT', () => { process.exit(); });
 process.on('SIGTERM', () => { process.exit(); });
 
-const TOKEN = '9223065901:AAGHUIzKwA8ez9ZyO5fC_EF90l6PlXAOpMU';
+const TOKEN = '9077405225:AAGq8CahXLJcjGnGQ8eZfTI2SoSVtagmNdw';
 const OWNER_ID = 6410146203; // Replace with your Telegram ID
 const esc = (s) => String(s || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 const DB_PATH = path.join(__dirname, 'database', 'bot_db.json');
