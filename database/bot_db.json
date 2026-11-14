@@ -2,7 +2,7 @@
   "users": [],
   "settings": {
     "credits_per_ref": 0,
-    "default_credits: 0,
+    "default_credits": 0,
     "maintenance_mode": false,
     "referral_active": false,
     "channel_id": null,
