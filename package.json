@@ -1,15 +1,14 @@
+
 {
   "name": "aadhar-bot",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "description": "Telegram Bot with Playwright",
+  "main": "bot.js",
   "type": "commonjs",
+  "scripts": {
+    "start": "node bot.js",
+    "postinstall": "playwright install chromium"
+  },
   "dependencies": {
     "fs-extra": "^11.3.4",
     "node-telegram-bot-api": "^0.67.0",
